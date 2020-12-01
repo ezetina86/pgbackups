@@ -11,6 +11,6 @@ setup(
     decription = 'A utility for backing up PostreSQL databases.',
     long_description = long_description,
     long_description_content_type = 'text/markdown',
-    url='http://x.com'
+    url='https://github.com/ezetina86/pgbackups.git',
     packages = find_packages('src')
 )    
