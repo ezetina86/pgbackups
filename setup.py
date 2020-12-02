@@ -8,9 +8,16 @@ setup(
     version = '0.1.0',
     author = 'Enrique Zetina',
     author_email = 'jenzetin@gmail.com',
-    decription = 'A utility for backing up PostreSQL databases.',
+    description = 'A utility for backing up PostreSQL databases.',
     long_description = long_description,
     long_description_content_type = 'text/markdown',
     url='https://github.com/ezetina86/pgbackups.git',
-    packages = find_packages('src')
+    packages = find_packages('src'),
+    package_dir ={'':'src'},
+    install_requires = ['boto3'],
+    entry_points={
+        'console_scripts':[
+                'pgbackup=pgbackup.cli:main'
+            ],
+        }
 )    
