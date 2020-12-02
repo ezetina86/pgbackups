@@ -32,7 +32,7 @@ $ pip install --user -e .
 Follow these steps to start developing with this project:
 
 1. Ensure `pip` and `pipenv` are installed
-2. Clone repository: `git clone git@github.com:example/pgbackup`
+2. Clone repository: `git clone https://github.com/ezetina86/pgbackups.git`
 3. `cd` into the repository
 4. Activate virtualenv: `pipenv shell`
 5. Install dependencies: `pipenv install`
